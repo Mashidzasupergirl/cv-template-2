@@ -4,71 +4,38 @@ const otherContainer = document.getElementById('otherContainer');
 
 const projects = [
   {
-    image: 'img/final-project-salt.png',
-    name: 'Mob timer',
-    link: 'http://ec2-16-171-2-140.eu-north-1.compute.amazonaws.com/',
+    image: 'img/project-1.png',
+    name: 'Anti-Corruption Foundation',
+    link: 'https://acf.international/',
     description:
-    'Full-stack application from scratch. This is a mob timer where you can customize the team, timer time and sound',
-    tags: ['React', 'Express', 'RESTful APIs', 'MongoDB', 'Docker', 'AWS']
+    'Corruption kills. As Ukrainian cities are bombed by Putin, this has never been more obvious. Putin and his circle have done everything to stay in power — and steal, and steal, and steal some more. High on their own supply, they started a devastating war.',
+    tags: ['PutinHujlo', 'NoWar', 'FreeNavalny']
   },
   {
-    image: 'img/film-lovers-project.png',
-    name: 'Application for filmlovers',
-    link: 'https://mashidzasupergirl.github.io/FilmLoversProject/',
+    image: 'img/project-2.png',
+    name: 'Smart Voting',
+    link: 'https://votesmart.appspot.com/',
     description:
-      'Save friends recommendations of what to watch and what is also important what NOT to watch. Here you can also take a test and find out what to watch tonight.',
-    tags: ['HTML', 'CSS', 'JavaScript'],
-  },
-  {
-    image: 'img/todo.png',
-    name: 'ToDo App',
-    link: 'https://mashidzasupergirl.github.io/ToDoList/',
-    description:
-      'ToDo list for every day. You can add task, cross out and then delete. The data is stored in local memory, do not worry to close the tab. Application adapted for mobile devices',
-    tags: ['React', 'HTML', 'CSS', 'JavaScript'],
-  },
-  {
-    image: 'img/totem-animal.png',
-    name: 'Totem animal',
-    link: 'https://mashidzasupergirl.github.io/totem-animal/',
-    description:
-      'This is my very first app ever that I made! If you are a beginner in coding, I will gladly explain you how web applications are created using this code as an example.',
-    tags: ['HTML', 'CSS', 'JavaScript'],
-  },
-    {
-    image: 'img/fizz-buzz.png',
-    name: 'FizzBuzz game & Divisors',
-    link: 'https://mashidzasupergirl.github.io/FizzBuzz-and-Divisors-game/',
-    description:
-      '1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fiz... Do you know what I mean? If not - google Fizz-Buzz game 😉',
-      // This application was created with mob programming
-    tags: ['HTML', 'CSS', 'JavaScript'],
+      'Elections are the last safe form of protest. This is a way to unite and say: "We are against the criminal government." We are convinced that now, when they are trying to completely deprive each of us of the right to participate in politics, it is more important than ever to participate in it.',
+    tags: ['VoteSart', 'PutinHujlo'],
   },
 
-    {
-    image: 'img/news-website-template.png',
-    name: 'News website',
-    link: 'https://mashidzasupergirl.github.io/News-website-template/',
-    description:
-      'A very simple news website template. It is fully responsive so it looks beautiful on all gadgets.',
-    tags: ['HTML', 'CSS'],
-  },
 
 ];
 
 const otherProjects = [
   {
-    name: 'Orienteering',
-    link: 'https://youtu.be/ZxyUDG2DBD0',
+    name: 'I was poisoned by Putin',
+    link: 'https://en.wikipedia.org/wiki/Poisoning_of_Alexei_Navalny#:~:text=On%2020%20August%202020%2C%20Russian,was%20hospitalized%20in%20serious%20condition.',
     description:
-      'I have been orienteering since childhood. This sport allows you to train both the mind and physical strength and at the same time you can enjoy the beauty of nature.',
-    tags: ['Orienteering'],
+      'On 20 August 2020, I was poisoned with a Novichok nerve agent and was hospitalized in serious condition.',
+    tags: ['Novichok'],
   },
   {
-    name: 'Political activism and volunteering',
-    link: 'https://www.russiansagainstthewar.se/',
+    name: 'Now I am in prison',
+    link: 'https://en.wikipedia.org/wiki/Poisoning_of_Alexei_Navalny#Return_and_imprisonment',
     description:
-      'I want the war in Ukraine started by Putin to end. I am participating in the anti-war committee in Sweden «Russians Against War». I help refugees from Ukraine and political prisoners in Russia.',
+      '6/8 In my last word, I spoke, of course, about the war. About how it became a direct consequence of corruption and degradation. A bloody cover for the failure of the Putin regime.',
     tags: ['Stand with Ukraine'],
   },
 
@@ -76,11 +43,11 @@ const otherProjects = [
 
 const articles = [
   {
-    image: 'img/article1.webp',
-    title: 'Is programming right for me?',
-    link: '',
+    image: 'img/article-1.png',
+    title: 'An ailing Navalny describes a prison move that will extend his isolation.',
+    link: 'https://www.nytimes.com/2023/02/01/world/europe/navalny-russia-prison.html',
     description:
-      'During a career change, ?',
+      'The New York Times article',
   },
 ];
 
